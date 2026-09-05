@@ -2,6 +2,7 @@
 #include<climits>
 using namespace std;
 int main(){
-    unsigned int x; // only non negative numbers
+    unsigned int x; 
+    cout<<x; // only non negative numbers
 
 }

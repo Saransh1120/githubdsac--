@@ -1,3 +1,16 @@
+/*
+QUESTION: Odd Star Triangle
+  Example: n = 3
+    *
+    * * *
+    * * * * *
+
+YAAD RAKHO: row i me 2i-1 stars (1, 3, 5 ...).
+
+METHODS (sir ne 2 methods kiye hain):
+  - Method 1 (use ho raha hai): formula -> j <= 2*i - 1.
+  - Method 2 (comment me): stars variable, har row ke baad stars += 2.
+*/
 #include<iostream>
 using namespace std;
 int main(){

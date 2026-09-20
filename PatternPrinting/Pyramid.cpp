@@ -1,3 +1,22 @@
+/*
+QUESTION: Star Pyramid
+  Example: n = 3
+        *
+      * * *
+    * * * * *
+
+YAAD RAKHO: row i: pehle n-i spaces, phir 2i-1 stars. (ya nsp = n-1, nst = 1 se shuru: nsp--, nst += 2)
+
+METHODS (sir ne 2 methods kiye hain):
+  - Method 1 (comment me - formula): spaces = n-i, stars = 2i-1.
+  - Method 2 (use ho raha hai - nsp, nst variables):
+      nsp = number of spaces, nst = number of stars.
+      Har row ke baad nsp--, nst += 2.
+      Ye tarika Diamond jaise mushkil patterns me kaam aata hai.
+
+LOGIC (short notes):
+  - Space "  " (2) aur star "* " (2) -> shape barabar.
+*/
 #include<iostream>
 using namespace std;
 int main(){

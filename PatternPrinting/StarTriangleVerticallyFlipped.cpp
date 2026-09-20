@@ -1,3 +1,16 @@
+/*
+QUESTION: Star Triangle - Vertically Flipped (right aligned)
+  Example: n = 3
+        *
+      * *
+    * * *
+
+YAAD RAKHO: row i: n-i spaces, phir i stars. (ya grid me (i + j) > n -> star)
+
+METHODS (sir ne 2 methods kiye hain):
+  - Method 1 (use ho raha hai): do andar ke loops -> pehle n-i spaces, phir i stars.
+  - Method 2 (comment me): n x n grid, (i + j) > n ho to star, warna space.
+*/
 #include<iostream>
 using namespace std;
 int main(){

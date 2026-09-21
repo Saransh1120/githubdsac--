@@ -1,4 +1,4 @@
-/*
+ /*
 TOPIC: Local vs Global Variable (same naam)
 
 YAAD RAKHO: main me local x hai to main ka x = LOCAL. change() GLOBAL x badalta hai, local pe asar nahi.

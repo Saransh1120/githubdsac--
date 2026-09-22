@@ -15,5 +15,6 @@ int x = 8; // global
 int main(){
     int x = 56; // local (global ko chhupa diya)
     cout<<x<<endl;   // 56
-    cout<<::x<<endl; // 8 -> scope resolution operator
-}
+    cout<<::x<<endl;                    
+    
+}h
